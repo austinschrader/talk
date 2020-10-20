@@ -6,6 +6,12 @@ $(document).ready(function () {
 			alert('hi');
 		});
 	});
+	$('ul#user')
+		.children('li')
+		.first()
+		.click(function () {
+			alert('hi');
+		});
 
 	$('button#goodbye').click(function () {
 		$('ul#user').prepend('<li>Goodbye!</li>');
